@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgba(239, 228, 228, 0.93);
+  }
+  .main {
+    background-color: rgba(2, 25, 57, 0.74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+  }
+  .main2 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    margin-bottom: 15px;
+  }
+  .main2 button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(43, 158, 139);
+    color: white;
+    border: 2px solid rgb(43, 158, 139);
+    border-radius: 3px;
+  }
+  .main2 button:hover {
+    border: 2px solid rgb(43, 158, 139);
+    background-color: rgb(39, 125, 110);
+    cursor: pointer;
+  }
+  .main3 {
+    margin: 10px;
+    width: 97%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .card {
+    width: 95%;
+    margin: 15px auto;
+    background-color: rgb(230, 229, 229);
+    border-radius: 6px;
+    padding: 15px;
+  }
+  .card span {
+    font-size: 15px;
+  }
+  .card span:nth-child(1) {
+    margin-left: 15px;
+  }
+  .card button {
+    font-size: 13px;
+    background-color: rgb(40, 92, 233);
+    border: 0.5px solid rgb(0, 42, 156);
+    margin: 10px 10px 8px 10px;
+    height: 22px;
+    padding: 2px 12px;
+    border-radius: 3px;
+    color: rgb(236, 236, 236);
+  }
+  .card button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  #wishlistPage {
+    font-size: 1.5vw;
+  }
+  #wishlistPage span {
+    margin: 5px 20px;
+    font-size: 20px;
+  }
+  #holdingsPage span {
+    margin: 10px 20px;
+  }
+  #holdingsPage {
+    font-size: 3vw;
+  }
+  .card:hover {
+    width: 96%;
+    box-shadow: 5px 5px 9px 0.8px rgb(181, 179, 179);
+    cursor: pointer;
+  }
